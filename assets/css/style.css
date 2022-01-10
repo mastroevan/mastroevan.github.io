@@ -334,11 +334,16 @@ section {
   background: #f5f8fd;
 }
 
-iframe {
-  width: 60vw;
-  height: 80vh;
-  text-align: center;
-  margin-left: 10%;
+#resumeImg {
+  margin-left: 15%;
+}
+
+@media screen and (max-width: 800px) {
+  #resumeImg {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
 }
 
 /*--------------------------------------------------------------
