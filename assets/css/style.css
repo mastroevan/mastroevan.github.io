@@ -335,10 +335,10 @@ section {
 }
 
 iframe {
-  width: 60%;
-  height: 800px;
+  width: 60vw;
+  height: 80vh;
   text-align: center;
-  margin-left: 20%;
+  margin-left: 10%;
 }
 
 /*--------------------------------------------------------------
