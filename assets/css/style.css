@@ -300,6 +300,7 @@ section {
 .about .content ul {
   list-style: none;
   padding: 0;
+  margin-right: 20px;
 }
 .about .content ul li {
   margin-bottom: 20px;
@@ -311,7 +312,7 @@ section {
 }
 .about .content ul i {
   font-size: 16px;
-  margin-right: 5px;
+  margin-right: 35px;
   color: #149ddd;
   line-height: 0;
 }
@@ -683,9 +684,19 @@ section {
   background: #37b3ed;
 }
 
-div #move{
- margin-left: 35%;
+.contact-icons {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
 }
+
+#contactIcon {
+  margin: 10px;
+  padding: 10px;
+  justify-content: center;
+
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
